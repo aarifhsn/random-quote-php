@@ -35,7 +35,7 @@ $randQuote = array_rand($quotes);
 $randWriter = $quotes[$randQuote];
 
     echo "<div class='display_quotes'>
-            <p>$randQuote</p>
+            <p>\"$randQuote\"</p>
             <span>$randWriter</span>
             
             <a href='?'' >Refresh</a>
